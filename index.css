@@ -1,0 +1,136 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('wp.jpg') no-repeat center/cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+#container {
+    width: 35%;
+    height: 45%;
+}
+
+a{
+    color: #3C4345 ;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#form{
+    width: 100%;
+    height: 100%;
+    background-color: #370617;
+    overflow: hidden;
+    box-shadow: 0 0 50px -20px #000;
+    border-radius: 3%;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    background: #E8F7F6;
+    border-bottom: 2px solid transparent;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    font-family: 'sans-serif';
+    font-weight: 500;
+    color: #000;
+    font-size: 12px;
+    border-image: -webkit-linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF) 1;
+}
+
+#form_header_cont {
+    width: 100%;
+    height: 5%;
+    padding: 21px;
+    padding-bottom: 31px;
+    padding-top: 31px;
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1.5px solid transparent;
+    border-image: -webkit-linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF) 20;
+    background: #3E4041 ;
+}
+
+#form_header {
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    font-family: 'sans-serif';
+    font-weight: 900;
+    background: -webkit-linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF);
+      -webkit-background-clip: text;
+    color: #DEE3E1 ;
+}
+
+#form_cont_container {
+    width: 100%;
+    height: 90%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7DB4C1 ;
+    padding-top: 30px;
+}
+
+#inner_container {
+    width: 75%;
+    height: 100%;
+    float: left;
+}
+
+ a{
+    margin-top: 2vh;
+    padding-top: 20px;
+    width:10px; 
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+#button_cont {
+    width: 5.75%;
+    height: 5%;
+    background-color: #3E4041;
+    color: #fff;
+    position:absolute;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 8%;
+}
+
+#button_cont button {
+    width: 50%;
+    height: 100%;
+
+    margin: auto;
+    background: transparent;
+    color: inherit;
+    text-align: center;
+    font-family: 'sans-serif';
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 14px;
+    cursor: pointer;
+}

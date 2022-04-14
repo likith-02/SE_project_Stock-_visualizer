@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stock visualizer project</title>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"> </script>
+
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="form">
+                <div id="form_header_cont">
+                    <h2 id="form_header"> LOGIN PORTAL</h2>
+                </div>
+
+                <div id="form_cont_container">
+                    <div id="inner_container">
+                        <input type="email" id="email" placeholder="Email">
+                        <input type="password" id="password" placeholder="New Password">
+
+                        <div id="button_cont">
+                            <button onclick="login()">LOGIN</button>
+                        </div>
+                        <br><br><br><br>
+                        <a href="signup.html">Sign up here!</a>
+                        &nbsp;&nbsp;&nbsp;
+                        <a href="#" onclick="forgotpass()">Forgot password?</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <script src="index.js"></script>
+
+</html>

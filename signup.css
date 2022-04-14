@@ -1,0 +1,137 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background: url('wp.jpg') no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+#content_container {
+    width: 30%;
+    height: 70%;
+}
+
+#form_container {
+    width: 100%;
+    height: 85%;
+
+     background-color: #370617;
+    box-shadow: 0 0 50px -20px #000;
+    border-radius: 2%;
+
+    overflow: hidden;
+}
+
+#form_header_container {
+    width: 100%;
+    height: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    border-bottom: 1px solid transparent;
+    border-image: -webkit-linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF) 20;
+    background: #3E4041 ;
+}
+
+#form_header {
+    display: inline-block;
+    font-size: 15px;
+    font-family: Bowlby One SC;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+
+    background: #fff;
+      -webkit-background-clip: text;
+    color: #DEE3E1 ;
+}
+
+#form_content_container {
+    width: 100%;
+    height: 90%;
+
+    float: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7DB4C1 ;
+    padding-top: 30px;
+}
+
+#form_content_inner_container {
+    width: 75%;
+    height: 100%;
+
+    float: left;
+
+}
+
+input {
+    width: 100%;
+    height: 40px;
+
+    padding-left: 10px;
+    margin-bottom: 20px;
+
+    background: #E8F7F6;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #000;
+    font-size: 12px;
+
+    border-bottom: 2px solid transparent;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-image: -webkit-linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF) 1;
+}
+
+#button_container {
+    width: 22.5%;
+    height: 5%;
+    text-align: center;
+
+    color: #fff;
+    background-color: #3E4041;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-top: 5px;
+    position: absolute;
+}
+
+#button_container button {
+    width: 50%;
+    height: 100%;
+
+    margin: auto;
+    background: transparent;
+    color: inherit;
+    text-align: center;
+    font-family: Montserrat;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 14px;
+
+    cursor: pointer;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
