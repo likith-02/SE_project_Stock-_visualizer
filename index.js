@@ -35,7 +35,7 @@ function login() {
       last_login : Date.now()
     }
     database_ref.child('users/' + user.uid).update(user_data)
-    window.location.href="file:///C:/Users/NAGENDRA%20BIYANI/Desktop/Login/api.html";
+    window.location.href="https://likith-02.github.io/SE_project_Stock-_visualizer/api.html";
 
   })
   .catch(function(error) {
