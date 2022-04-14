@@ -1,5 +1,5 @@
 # SE_project_Stock-_visualizer
-It a website which users can access using the index.html in the files uploaded above or the the github pages link.
+It a website which users can access using the index.html in the files uploaded above or the the github pages link: https://likith-02.github.io/SE_project_Stock-_visualizer/
 
 Registered user has to Login before using the visualzer page.
 
