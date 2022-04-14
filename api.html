@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Stock visualizer</title>
+    <script type="text/javascript" src="C:\Users\NAGENDRA BIYANI\Desktop\Login\ps5\p5.js"></script>
+    <link rel="stylesheet" type="text/css" href="api.css">
+    <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Square Peg' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+    <script src="api.js"></script>
+  </head>
+  <body style="background-color: #F16464 ">
+    <div style="background-color:#7C0303;">
+    <h1 style="color: #fff;margin: 0px;text-align: center;height: 50px;font-family: 'Square Peg';margin-top: 0px;font-size: 45px">Stock Visualizer</h1>
+    </div>
+    <!-- TradingView Widget BEGIN -->
+
+<!-- TradingView Widget END -->
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "US 100"
+    },
+    {
+      "proName": "FX_IDC:EURUSD",
+      "title": "EUR/USD"
+    },
+    {
+      "proName": "BITSTAMP:BTCUSD",
+      "title": "Bitcoin"
+    },
+    {
+      "proName": "BITSTAMP:ETHUSD",
+      "title": "Ethereum"
+    }
+  ],
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "showSymbolLogo": false,
+  "locale": "in"
+}
+  </script>
+</div>
+<div class="par" style="background: url('wallstock1.jpg') no-repeat center/cover;margin: 0px;">
+  <br><br>
+  <h1 style="text-align: center;font-size: 50px;font-family: 'Fjalla One';margin-top: 100px;color: #fff;">Global market analysis simplified!</h1>
+  <h3 style="text-align: center;font-size: 40px;font-family: 'Abel';color: #fff">View and analyse the trend of real time stock data at your fingertips.</h3>
+<div class="dropdown">
+  <button class="dropbtn" style="margin-left: 450px;width: 600px;height: 35px;padding-bottom: 30px">Select the symbol </button>
+  <div class="dropdown-content" style="margin-left: 450px;width: 600px;height: 30px;">
+    <a href="file:///C:/Users/NAGENDRA%20BIYANI/Desktop/Login/GOOG.html">GOOG</a>
+    <a href="file:///C:/Users/NAGENDRA%20BIYANI/Desktop/Login/MSFT.html">MSFT</a>
+    <a href="file:///C:/Users/NAGENDRA%20BIYANI/Desktop/Login/AAPL.html">AAPL</a>
+    <a href="file:///C:/Users/NAGENDRA%20BIYANI/Desktop/Login/STLTECH.html">STLTECH</a>
+    <a href="file:///C:/Users/NAGENDRA%20BIYANI/Desktop/Login/SBIN.html">SBIN</a>
+    <a href="file:///C:/Users/NAGENDRA%20BIYANI/Desktop/Login/BANKBARODA.html">BANKBARODA</a>
+    <a href="file:///C:/Users/NAGENDRA%20BIYANI/Desktop/Login/RELIANCE.html">RELIANCE</a>
+    <a href="file:///C:/Users/NAGENDRA%20BIYANI/Desktop/Login/TATAMTRDVR.html">TATAMTRDVR</a>
+    <a href="file:///C:/Users/NAGENDRA%20BIYANI/Desktop/Login/HDFC.html">HDFC</a>
+    <a href="file:///C:/Users/NAGENDRA%20BIYANI/Desktop/Login/KOTAKBANK.html">KOTAKBANK</a>
+  </div>
+</div>
+  <br><br>
+</div>
+<div class="chart">
+  <br><h1 style="text-align: center;font-family: 'Merienda';color: #fff;">Analyse stocks using volume charts here.</h1>
+  <h4 style="text-align: center;font-family: 'Merienda';color: #fff;">volume charts are the most typical tools that are used as technical indicators for technical analysis. Trying to perform technical analysis without using stock charts is like trying to build a house without owning land! </h4>
+</div>
+<br><br>
+
+<div class="tradingview-widget-container">
+  <div id="tradingview_9ea06"></div>
+  <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Chart</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "width": 1450,
+  "height": 610,
+  "symbol": "NASDAQ:AAPL",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "dark",
+  "style": "1",
+  "locale": "in",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "allow_symbol_change": true,
+  "container_id": "tradingview_9ea06"
+}
+  );
+  </script>
+</div>
+<div >
+  <h3 style="text-align: center;font-family: 'Merienda';color: #fff;back">Get an overview of global markets performance, including change values, Open, High, Low, and Close values for selected financial instruments.</h3>
+  <h4 style="text-align: center;font-family: 'Merienda';color: #fff;"> Market data allows traders and investors to know the latest price and see historical trends for instruments such as equities, fixed-income products, derivatives, and currencies.</h4>
+</div>
+
+<div class="tradingview-widget-container">
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+  {
+  "width": 1510,
+  "height": 450,
+  "symbolsGroups": [
+    {
+      "name": "Indices",
+      "originalName": "Indices",
+      "symbols": [
+        {
+          "name": "FOREXCOM:SPXUSD",
+          "displayName": "S&P 500"
+        },
+        {
+          "name": "FOREXCOM:NSXUSD",
+          "displayName": "US 100"
+        },
+        {
+          "name": "FOREXCOM:DJI",
+          "displayName": "Dow 30"
+        },
+        {
+          "name": "INDEX:NKY",
+          "displayName": "Nikkei 225"
+        },
+        {
+          "name": "INDEX:DEU40",
+          "displayName": "DAX Index"
+        },
+        {
+          "name": "FOREXCOM:UKXGBP",
+          "displayName": "UK 100"
+        }
+      ]
+    },
+    {
+      "name": "Futures",
+      "originalName": "Futures",
+      "symbols": [
+        {
+          "name": "CME_MINI:ES1!",
+          "displayName": "S&P 500"
+        },
+        {
+          "name": "CME:6E1!",
+          "displayName": "Euro"
+        },
+        {
+          "name": "COMEX:GC1!",
+          "displayName": "Gold"
+        },
+        {
+          "name": "NYMEX:CL1!",
+          "displayName": "Crude Oil"
+        },
+        {
+          "name": "NYMEX:NG1!",
+          "displayName": "Natural Gas"
+        },
+        {
+          "name": "CBOT:ZC1!",
+          "displayName": "Corn"
+        }
+      ]
+    },
+    {
+      "name": "Bonds",
+      "originalName": "Bonds",
+      "symbols": [
+        {
+          "name": "CME:GE1!",
+          "displayName": "Eurodollar"
+        },
+        {
+          "name": "CBOT:ZB1!",
+          "displayName": "T-Bond"
+        },
+        {
+          "name": "CBOT:UB1!",
+          "displayName": "Ultra T-Bond"
+        },
+        {
+          "name": "EUREX:FGBL1!",
+          "displayName": "Euro Bund"
+        },
+        {
+          "name": "EUREX:FBTP1!",
+          "displayName": "Euro BTP"
+        },
+        {
+          "name": "EUREX:FGBM1!",
+          "displayName": "Euro BOBL"
+        }
+      ]
+    },
+    {
+      "name": "Forex",
+      "originalName": "Forex",
+      "symbols": [
+        {
+          "name": "FX:EURUSD"
+        },
+        {
+          "name": "FX:GBPUSD"
+        },
+        {
+          "name": "FX:USDJPY"
+        },
+        {
+          "name": "FX:USDCHF"
+        },
+        {
+          "name": "FX:AUDUSD"
+        },
+        {
+          "name": "FX:USDCAD"
+        }
+      ]
+    }
+  ],
+  "showSymbolLogo": false,
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "locale": "in"
+}
+  </script>
+</div>
+<div class="feed">
+  <h1 style="text-align: center;font-family: 'Merienda';color: #fff;background-color: #102452 ;margin-top: 3px;margin-bottom: 0px">News Feed</h1>
+</div>
+<rssapp-wall id="t5R2XgoUWKRdd3mx"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
+</body>
+
+</html>
